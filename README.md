@@ -9,5 +9,5 @@ Example use cases include simulations that _sometimes_ require very specific act
 # Usage
 ```shell
 
-python long_running_code.py --hooks hooks/do_something.py hooks/do_something_else.py
+python long_running_code.py
 ```
