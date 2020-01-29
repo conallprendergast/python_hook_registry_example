@@ -9,7 +9,7 @@ from hooks import *
 def main():
 
     print("There are currently {} hooks registered".format(len(hookregistry.HookRegistry.hooks)))
-    hookregistry.HookRegistry.execute_hooks()   
+    hookregistry.HookRegistry.execute_hooks(day="3")   
 
 
 if __name__ == "__main__":
